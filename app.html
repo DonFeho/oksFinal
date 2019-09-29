@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  </Link>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Львівська Кахлярня</title>
+</head>
+
+<body id="stage">
+
+
+  <section id="about" class="py-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mb-4">
+          <p class="primary-lead">Про Нас</p>
+          <h2 class="my dysplay-1 mb-3">Львівська Кахлярня</h2>
+          <p class="px-5"> З-поміж колись чисельних цегелень та кахлярень Львова, до наших днів збереглася лише фабрика
+            Берла Нойвонера та Філіпа Вальдмана. На початку ХХ століття фабрика стала фаворитом у продукції серед інших
+            подібних підприємств і мала назву “Крайова фабрика кахлевих печей”, а зараз тут розміщена Львівська
+            Кахлярня.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-md-right">
+          <p class="primary-lead mt-2">Директор</p>
+          <h4>Оксана Чепурна</h4>
+          <p class="text-sm text-muted">Художник за освітою та покликанням, підприємець, продовження австрійських
+            традицій, проектування камінів і печей, створення інтер’єрів, впровадження у виробництво методу «подвійного
+            лиття», ручний художній розпис.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="img/pep/oc1.jpg" alt="" class="img-fluid mb-1">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="img/pep/oc2.jpg" alt="" class="img-fluid mb-1">
+        </div>
+        <div class="col-lg-3 col-md-6 text-md-left">
+          <p class="primary-lead mt-2">Заступник Директора</p>
+          <h4 class="">Тарас Чепурний</h4>
+          <p class="text-sm text-muted">Фаховість юриста, відданість справі, забезпечення безперебійного виробництва та
+            сумлінне виконання обов’язків, ефективний менеджмент, прогресивність у плануванні діяльності та прагматизм у
+            прийманні відповідальних рішень.</p>
+        </div>
+        <div class="row">
+          <div class="col lg-12 py-3 px-5">
+            <div class="w-75 mx-auto">
+              <p class="lead">
+                <strong class="color-lead"> Оксана Чепурна </strong>
+                - заслужений художник України зібрала унікальну команду спеціалістів кахельної справи .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <section id="bullets" class="text-center text-white py-5"></section>
+  <section id="history" class="bg-white"></section>
+  <section id="solid" class="bg-oks py-5 text-center text-white"></section>
+
+
+
+
+
+  <!-- Vendor -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+  <!-- core -->
+  <script src="js+/stage.js"></script>
+  <script src="js+/layout.js"></script>
+  <script src="js+/content.js"></script>
+  <script src="js/render.js"></script>
+
+  <!-- render -->
+  <script>
+    const stage = new Stage();
+    stage.renderDefaultStage();
+    stage.renderStatic();
+    stage.renderMap();
+
+
+    var lay = new Layout('home');
+    lay.setLayout();
+    const mainPage = new Page('./j_data/main.json', 'output-portfolio');
+    var render = new Render();
+    render.renderHome();
+
+    document.getElementById('navbar-nav').addEventListener('click', (e) => {
+      e.preventDefault();
+
+      $(document).ready(function () {
+        $(window).scrollTop(0);
+      });
+
+      const event = e.target;
+      const id = event.id;
+      if (id !== '') {
+        console.log(id);
+        var lay = new Layout(id);
+        console.log(lay);
+        lay.setLayout();
+        var render = new Render(id);
+        render.renderContent();
+      } else {
+        console.log('Error ...');
+      }
+    })
+
+  </script>
+
+  <script>
+    //lightbox
+    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+      e.preventDefault();
+      $(this).ekkoLightbox({
+        showArrows: true,
+      });
+    });
+
+
+    const screen = $(window).width();
+    console.log(screen);
+  </script>
+
+  <script>
+    $('#year').text(new Date().getFullYear());
+  </script>
+
+  <script src="js/g-map.js"> </script>
+  <script async='' , defer='' ,
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSeEQdJ6p1TN_DBtkaD1czR-JVhKdzevs&callback=initMap"></script>
+
+</body>
+
+</html>

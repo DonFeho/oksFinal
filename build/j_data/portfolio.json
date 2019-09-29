@@ -1,0 +1,213 @@
+{
+  "kamini": [
+    {
+      "id": "k8",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Під Левом Білий",
+      "link": "img/kamin/kam8.jpg"
+    },
+    {
+      "id": "k9",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Амфора Біла",
+      "link": "img/kamin/kam9.jpg"
+    },
+    {
+      "id": "k10",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Ліра Зелена",
+      "link": "img/kamin/kam10.jpg"
+    },
+    {
+      "id": "k11",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Ліра Еліт",
+      "link": "img/kamin/kam11.jpg"
+    },
+    {
+      "id": "k12",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Під Левом Зелений",
+      "link": "img/kamin/kam12.jpg"
+    },
+    {
+      "id": "k13",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Під Левом Еліт",
+      "link": "img/kamin/kam13.jpg"
+    },
+    {
+      "id": "k14",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Під Німфами",
+      "link": "img/kamin/kam14.jpg"
+    },
+    {
+      "id": "k15",
+      "type": "kamin",
+      "title": "Піч-Камін",
+      "name": "Ліра Зелена",
+      "link": "img/kamin/kam15.jpg"
+    },
+    {
+      "id": "k16",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Ромашка Модерн",
+      "link": "img/kamin/kam16.jpg"
+    },
+    {
+      "id": "k17",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Назва",
+      "link": "img/kamin/kam17.jpg"
+    },
+    {
+      "id": "k18",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Назва",
+      "link": "img/kamin/kam18.jpg"
+    },
+    {
+      "id": "k4",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Фантазія",
+      "link": "img/kamin/kam4.jpg"
+    },
+    {
+      "id": "k5",
+      "type": "kamin",
+      "title": "Піч-Камін",
+      "name": "Біла Ніч",
+      "link": "img/kamin/kam5.jpg"
+    },
+    {
+      "id": "k1",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Під Левом Коричневий",
+      "link": "img/kamin/kam1.jpg"
+    },
+    {
+      "id": "k2",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Ліра Компакт",
+      "link": "img/kamin/kam2.jpg"
+    },
+    {
+      "id": "k3",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "З Художнім Розписом",
+      "link": "img/kamin/kam3.jpg"
+    },
+
+    {
+      "id": "k6",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Амфора",
+      "link": "img/kamin/kam6.jpg"
+    },
+    {
+      "id": "k7",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Під Левом з Німфами",
+      "link": "img/kamin/kam7.jpg"
+    }
+  ],
+
+  "pe4i": [
+    {
+      "id": "pi41",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "Веснянка з Німфами Зелена",
+      "link": "img/pi4/pi41.jpg"
+    },
+    {
+      "id": "pi42",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "Веснянка Зелена",
+      "link": "img/pi4/pi42.jpg"
+    },
+    {
+      "id": "pi43",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "З Художнім Розписом",
+      "link": "img/pi4/pi43.jpg"
+    },
+    {
+      "id": "pi44",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "З Художнім Розписом",
+      "link": "img/pi4/pi44.jpg"
+    },
+
+    {
+      "id": "pi45",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "Веснянка з Німфами Біла",
+      "link": "img/pi4/pi45.jpg"
+    },
+
+    {
+      "id": "pi46",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "Назва",
+      "link": "img/pi4/pi46.jpg"
+    },
+    {
+      "id": "pi47",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "Піч-кухня",
+      "link": "img/pi4/pi47.jpg"
+    },
+    {
+      "id": "pi48",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "Назва",
+      "link": "img/pi4/pi48.jpg"
+    },
+    {
+      "id": "pi49",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "Веснянка з Німфами",
+      "link": "img/pi4/pi49.jpg"
+    },
+    {
+      "id": "pi410",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "Назва",
+      "link": "img/pi4/pi410.jpg"
+    },
+    {
+      "id": "pi411",
+      "type": "pi4",
+      "title": "Піч",
+      "name": "Ромашка",
+      "link": "img/pi4/pi411.jpg"
+    }
+  ]
+}

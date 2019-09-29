@@ -1,0 +1,202 @@
+// Font
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+//Styles CSS
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--prime);
+}
+
+//NAVBAR
+.navbar {
+  .nav-item {
+    font-size: 0.85rem;
+    font-weight: 400;
+  }
+  .navbar-toggler {
+    color: var(--antic);
+    border: none;
+  }
+
+  .dropdown {
+    padding: 0.5rem;
+  }
+  .dropdown-menu {
+    background: var(--oks);
+  }
+
+  a {
+    color: var(--antic);
+    &:hover {
+      color: var(--gold);
+      font-weight: 400;
+    }
+  }
+  .active {
+    border-left: 1px var(--gold) solid;
+    color: var(--gold);
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5rem;
+  }
+}
+
+.p1 {
+  background: url('../img/portfolio/p1.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.p2 {
+  background: url('../img/portfolio/p2.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.p3 {
+  background: url('../img/portfolio/p3.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.p4 {
+  background: url('../img/portfolio/p4.jpg') bottom no-repeat;
+  background-size: cover;
+}
+
+.slide-1 {
+  background-image: url('../img/main/main-5.jpg');
+}
+.slide-2 {
+  background-image: url('../img/main/main-2.jpg');
+}
+.slide-3 {
+  background-image: url('../img/main/main-3.jpg');
+}
+.slide-4 {
+  background-image: url('../img/main/main-4.jpg');
+}
+.slide-5 {
+  background-image: url('../img/main/main-1.jpg');
+}
+.slide-6 {
+  background-image: url('../img/main/main-6.jpg');
+}
+
+.k1 {
+  background: url('../img/kamin/kam1.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k2 {
+  background: url('../img/kamin/kam2.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k3 {
+  background: url('../img/kamin/kam3.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k4 {
+  background: url('../img/kamin/kam4.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k5 {
+  background: url('../img/kamin/kam5.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k6 {
+  background: url('../img/kamin/kam6.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k7 {
+  background: url('../img/kamin/kam7.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k8 {
+  background: url('../img/kamin/kam8.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k9 {
+  background: url('../img/kamin/kam9.jpg') bottom no-repeat;
+  background-size: cover;
+}
+
+.k10 {
+  background: url('../img/kamin/kam10.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k11 {
+  background: url('../img/kamin/kam11.jpg') bottom no-repeat;
+  background-size: cover;
+}
+
+.k12 {
+  background: url('../img/kamin/kam12.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k13 {
+  background: url('../img/kamin/kam13.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k14 {
+  background: url('../img/kamin/kam14.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k15 {
+  background: url('../img/kamin/kam15.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k16 {
+  background: url('../img/kamin/kam16.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k17 {
+  background: url('../img/kamin/kam17.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k18 {
+  background: url('../img/kamin/kam18.jpg') bottom no-repeat;
+  background-size: cover;
+}
+
+.pi41 {
+  background: url('../img/pi4/pi41.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi42 {
+  background: url('../img/pi4/pi42.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi43 {
+  background: url('../img/pi4/pi43.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi44 {
+  background: url('../img/pi4/pi44.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi45 {
+  background: url('../img/pi4/pi45.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi46 {
+  background: url('../img/pi4/pi46.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi47 {
+  background: url('../img/pi4/pi47.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi48 {
+  background: url('../img/pi4/pi48.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi49 {
+  background: url('../img/pi4/pi49.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi410 {
+  background: url('../img/pi4/pi410.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi411 {
+  background: url('../img/pi4/pi411.jpg') bottom no-repeat;
+  background-size: cover;
+}
