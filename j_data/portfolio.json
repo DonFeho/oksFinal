@@ -7,15 +7,8 @@
       "name": "Лев",
       "link": "img/kamin/kam8.jpg",
       "art": "K-1"
-    },
-    {
-      "id": "k15",
-      "type": "kamin",
-      "title": "Камін",
-      "name": "_____",
-      "link": "img/kamin/kam20.jpg",
-      "art": "K-15"
-    },
+    },    
+    
     {
       "id": "k9",
       "type": "kamin",
@@ -25,12 +18,28 @@
       "art": "K-2"
     },
     {
+      "id": "k16",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Модерн",
+      "link": "img/kamin/kam16.jpg",
+      "art": "K-3"
+    },
+    {
       "id": "k10",
       "type": "kamin",
       "title": "Камін",
       "name": "Ліра",
       "link": "img/kamin/kam10.jpg",
-      "art": "K-3"
+      "art": "K-4"
+    },
+    {
+      "id": "k20",
+      "type": "kamin",
+      "title": "Кухня",
+      "name": "Універсальна",
+      "link": "img/kamin/kam20.jpg",
+      "art": "K-5"
     },
     {
       "id": "k11",
@@ -38,7 +47,7 @@
       "title": "Камін",
       "name": "Ліра",
       "link": "img/kamin/kam11.jpg",
-      "art": "K-4"
+      "art": "K-6"
 
     },
     {
@@ -47,7 +56,15 @@
       "title": "Піч-Камін",
       "name": "Лев",
       "link": "img/kamin/kam12.jpg",
-      "art": "K-5"
+      "art": "K-7"
+    },
+    {
+      "id": "k15",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Німфа",
+      "link": "img/kamin/kam20.jpg",
+      "art": "K-8"
     },
     {
       "id": "k13",
@@ -55,7 +72,7 @@
       "title": "Піч-Камін",
       "name": "Лев",
       "link": "img/kamin/kam13.jpg",
-      "art": "K-6"
+      "art": "K-9"
     },
     {
       "id": "k14",
@@ -63,24 +80,17 @@
       "title": "Камін",
       "name": "Німфа",
       "link": "img/kamin/kam14.jpg",
-      "art": "K-7"
+      "art": "K-10"
     },
  
-    {
-      "id": "k16",
-      "type": "kamin",
-      "title": "Камін",
-      "name": "Модерн",
-      "link": "img/kamin/kam16.jpg",
-      "art": "K-9"
-    },
+   
     {
       "id": "k17",
       "type": "kamin",
       "title": "Камін",
       "name": "Ліра",
       "link": "img/kamin/kam17.jpg",
-      "art": "K-10"
+      "art": "K-11"
     },
     
     {
@@ -89,7 +99,7 @@
       "title": "Камін",
       "name": "Фантазія",
       "link": "img/kamin/kam4.jpg",
-      "art": "K-11"
+      "art": "K-12"
     },
     {
       "id": "k5",
@@ -97,7 +107,7 @@
       "title": "Піч-Камін",
       "name": "Біла Ніч",
       "link": "img/kamin/kam5.jpg",
-      "art": "K-12"
+      "art": "K-13"
     },
     {
       "id": "k1",
@@ -105,17 +115,24 @@
       "title": "Камін",
       "name": "Лев",
       "link": "img/kamin/kam1.jpg",
-      "art": "K-13"
-    },
-    {
-      "id": "k2",
-      "type": "kamin",
-      "title": "Камін",
-      "name": "Ліра",
-      "link": "img/kamin/kam2.jpg",
       "art": "K-14"
     },
-    
+    {
+      "id": "k19",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Фантазія",
+      "link": "img/kamin/kam19.jpg",
+      "art": "K-19"
+    },
+    {
+      "id": "k3",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Амфора",
+      "link": "img/kamin/kam3.jpg",
+      "art": "K-3"
+    },
     {
       "id": "k6",
       "type": "kamin",
@@ -125,21 +142,40 @@
       "art": "K-15"
     },
     {
+      "id": "k2",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Ліра",
+      "link": "img/kamin/kam2.jpg",
+      "art": "K-16"
+    },
+    
+    {
+      "id": "k21",
+      "type": "kamin",
+      "title": "Камін",
+      "name": "Лев",
+      "link": "img/kamin/kam21.jpg",
+      "art": "K-17"
+    },
+      
+    {
       "id": "k7",
       "type": "kamin",
       "title": "Камін",
       "name": "Лев з Німфами",
       "link": "img/kamin/kam7.jpg",
-      "art": "K-16"
+      "art": "K-18"
     }
+
   ],
 
   "pe4i": [
     {
       "id": "pi46",
       "type": "pi4",
-      "title": "Піч",
-      "name": "Веснянка",
+      "title": "Піч-Кухня",
+      "name": "Авторська",
       "link": "img/pi4/pi46.jpg",
       "art": "P-1"
     },

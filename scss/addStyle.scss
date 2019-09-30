@@ -12,9 +12,9 @@ body {
 }
 
 //NAVBAR
-.navbar {
+.navbar { 
   .nav-item {
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 400;
   }
   .navbar-toggler {
@@ -27,6 +27,7 @@ body {
   }
   .dropdown-menu {
     background: var(--oks);
+    font-size: 0.9rem;
   }
 
   a {
@@ -155,6 +156,19 @@ body {
   background: url('../img/kamin/kam18.jpg') bottom no-repeat;
   background-size: cover;
 }
+.k19 {
+  background: url('../img/kamin/kam19.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k20 {
+  background: url('../img/kamin/kam20.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.k21 {
+  background: url('../img/kamin/kam21.jpg') bottom no-repeat;
+  background-size: cover;
+}
+
 
 .pi41 {
   background: url('../img/pi4/pi41.jpg') bottom no-repeat;
@@ -198,5 +212,9 @@ body {
 }
 .pi411 {
   background: url('../img/pi4/pi411.jpg') bottom no-repeat;
+  background-size: cover;
+}
+.pi412 {
+  background: url('../img/pi4/pi412.jpg') bottom no-repeat;
   background-size: cover;
 }
